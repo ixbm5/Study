@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("assets/back.png");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.navbar {
+  background-color: #1a237e;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* علشان يثبت بالأعلى */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #0084ff;
+}
+.imageCenter {
+  width: 250px;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.hero-title{
+  font-size:36px;
+  color: #0d8e9f;
+  margin: 20px 0;
+}
+
+.hero{
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+
+}
+.hero a{
+  background-color: aqua;
+  margin:10px;
+
+}
+.hero a:hover{
+  color: black;
+
+}
+.join{
+   padding: 12px 25px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
